@@ -1,0 +1,175 @@
+    .bloco1 {
+    width: 80%;
+    border: 1px solid;
+    display: grid;
+    margin: auto;
+    margin-bottom: 15px;
+    grid-template-columns: 1fr 1fr;
+    height: 140px;
+    }
+    .bloco2 {
+    width: 80%;
+    border: 1px solid;
+    height: 170px;
+    margin: auto;
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    }
+    .bloco21 {
+    border: 1px solid;
+    height: 100px;
+    width: 84%;
+    place-self: center;
+    align-self: start;
+    margin-top: 15px;
+    }
+    .bloco22{
+    border: 1px solid;
+    height: 140px;
+    width: 100%;
+    place-self: center;
+    align-self: start;
+    margin-top: 15px;
+    }
+    .bloco23{
+    border: 1px solid;
+    height: 100px;
+    width: 84%;
+    place-self: center;
+    align-self: start;
+    margin-top: 15px;
+    }
+    .bloco3 {
+    width: 80%;
+    border: 5px solid;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 15px;
+    }
+    .menusbase {
+    height: 100px;
+    font-size: 15px;
+    justify-self: end;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-right: 3.5%;
+    }
+    .menus{
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    align-self: center;
+    text-align: center;
+    line-height: 100px;
+    margin-left: 20px;
+    }
+    .logo {
+    background-color: black;
+    height: 100px;
+    width: 200px;
+    justify-self: start;
+    align-self: center;
+    margin-left: 3.5%;
+    }
+
+    @media screen and
+    (max-width: 1000px) {
+        .menus{
+        border: 1px solid;
+        height: 80px;
+        width: 80px;
+        align-self: center;
+        text-align: center;
+        line-height: 80px;
+        margin-left: 10px;
+        }
+    }
+
+    @media screen and
+    (max-width: 860px) {
+        .menus{
+        border: 1px solid;
+        height: 65px;
+        width: 65px;
+        align-self: center;
+        text-align: center;
+        line-height: 65px;
+        margin-left: 10px;
+        font-size: 12px;
+        }
+        .bloco21 {
+        display: none;
+        }
+        .bloco2 {
+        width: 80%;
+        border: 1px solid;
+        height: 170px;
+        margin: auto;
+        margin-bottom: 15px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        }
+        .bloco22{
+        border: 1px solid;
+        height: 140px;
+        width: 97%;
+        justify-self: center;
+        align-self: start;
+        margin-top: 15px;
+        margin-left: 15px;
+        text-align: center;
+        }
+    }
+h1{
+ text-align: center;
+
+}
+
+    @media screen and
+    (max-width: 720px) {
+        .menus{
+        border: 1px solid;
+        height: 40px;
+        width: 40px;
+        align-self: center;
+        text-align: center;
+        line-height: 40px;
+        margin-left: 10px;
+        font-size: 9px;
+        }
+        .menusbase {
+        height: 100px;
+        font-size: 15px;
+        justify-self: end;
+        align-self: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 3.5%;
+        }
+    }
+
+    @media screen and
+    (max-width: 430px) {
+        .menus{
+        border: 1px solid;
+        height: 30px;
+        width: 30px;
+        align-self: center;
+        text-align: center;
+        line-height: 30px;
+        margin-left: 10px;
+        font-size: 7px;
+        }
+        .menusbase {
+        height: 100px;
+        font-size: 15px;
+        justify-self: end;
+        align-self: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 3.5%;
+        }
+    }
+                                                                                                                                                    ]
